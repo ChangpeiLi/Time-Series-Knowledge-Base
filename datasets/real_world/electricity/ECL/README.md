@@ -9,20 +9,21 @@
 - Time span: 2012–2014
 - Task: Multivariate time-series forecasting
 
+## Stored in This Repository
+
+The raw dataset is not stored directly in this repository because the official TSF file is relatively large.
+
+Official file:
+
+`electricity_hourly_dataset.tsf`
+
+## Official Download
+
+Source: Monash Time Series Forecasting Repository / Zenodo
+
+Dataset file:
+`electricity_hourly_dataset.tsf`
+
 ## Description
 
-The original Electricity Load Diagrams dataset contains electricity consumption measurements from 370 clients recorded every 15 minutes.
-
-The version commonly used in time-series forecasting benchmarks is an aggregated hourly dataset containing 321 time series from 2012 to 2014.
-
-## Source
-
-Original dataset:
-UCI ElectricityLoadDiagrams20112014
-
-Forecasting benchmark version:
-Monash Time Series Forecasting Repository
-
-## Usage in This Project
-
-This dataset can be used as a real-world electricity dataset for evaluating time-series understanding and retrieval-augmented methods.
+The hourly ECL benchmark contains 321 electricity consumption time series and is commonly used in long-term multivariate time-series forecasting.
